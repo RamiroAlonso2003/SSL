@@ -5,7 +5,7 @@ int main() {
     printf("Hola Mundo");
 
     FILE *arch;
-    archivo = fopen("output.txt", "w");
+    arch = fopen("output.txt", "w");
     fprintf(arch, "Hola Mundo");
     fclose(arch);
 
