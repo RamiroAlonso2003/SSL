@@ -1,12 +1,13 @@
 #include <stdio.h>
+using namespace std;
 
 int main() {
-    printf("Hola Mundo\n");
+    printf("Hola Mundo");
 
-    FILE *archivo;
+    FILE *arch;
     archivo = fopen("output.txt", "w");
-    fprintf(archivo, "Hola Mundo");
-    fclose(archivo);
+    fprintf(arch, "Hola Mundo");
+    fclose(arch);
 
     return 0;
 }
